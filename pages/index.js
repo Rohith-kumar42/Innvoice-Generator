@@ -45,7 +45,7 @@ async function printForm() {
     doc.text(header.value, 140, 30);
     doc.setFontSize(14);
     y += 10;
-    doc.text(invoiceNo.value,195,y-27)
+    doc.text(invoiceNo.value,180,y-27)
     // Add Client company details
     doc.setFontSize(10);
     doc.setFontStyle('bold');
